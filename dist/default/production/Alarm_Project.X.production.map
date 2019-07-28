@@ -1,0 +1,68 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Mon Jul 01 17:08:56 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0000fe
+.config_2007_BUILD/DEFAULT/PRODUCTION/ALARM.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000082      
+                            0x002007    0x002007      
+            131 out of 2182 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   ARMADO   0x00004a    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+              DESATIVA_ZS   0x000045    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   FIMINT   0x000013    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   INICIO   0x000018    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  INTTMR0   0x00000e    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                     LOOP   0x000074    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   LP1SEG   0x00007d    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  LP200MS   0x000070    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  LP800MS   0x00006e    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   LP_1MS   0x000072    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 REINICIO   0x000024    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_TEC   0x000037    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_TEC_   0x000062    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_Z01   0x00002b    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_Z01_   0x000051    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_Z02   0x000031    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_Z02_   0x00005a    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  INTTMR0   0x00000e    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   FIMINT   0x000013    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   INICIO   0x000018    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 REINICIO   0x000024    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_Z01   0x00002b    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_Z02   0x000031    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  TST_TEC   0x000037    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+              DESATIVA_ZS   0x000045    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   ARMADO   0x00004a    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_Z01_   0x000051    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_Z02_   0x00005a    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                 TST_TEC_   0x000062    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  LP800MS   0x00006e    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                  LP200MS   0x000070    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   LP_1MS   0x000072    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                     LOOP   0x000074    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+                   LP1SEG   0x00007d    program     static C:\Users\Breno\MPLABXProjects\Alarm_Project.X\Alarm.asm
+
+
