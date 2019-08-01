@@ -1,2 +1,2 @@
 # Alarme-Residencial
-Projeto de alarme residencial en Assembly para o PIC16F628A
+Projeto de alarme residencial em Assembly para o PIC16F628A
